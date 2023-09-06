@@ -19,7 +19,7 @@ HuggingFaces のデータセットで公開する前は、ファイルから読�
 
 ```py
 from datasets import load_dataset
-ds = load_dataset('json', data_files='jhuman-eval.jsonl', split='train')
+ds = load_dataset('json', data_files='jhuman-eval.jsonl.gz', split='train')
 ```
 ```
 Dataset({
